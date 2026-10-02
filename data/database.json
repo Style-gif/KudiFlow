@@ -1,0 +1,330 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_001",
+      "name": "Oluwaseun Balogun",
+      "email": "shopatstylestessentials@gmail.com",
+      "phone": "08023456789",
+      "kudiTag": "@seun_admin",
+      "passwordHash": "68e7d843f2a2a86cf55a0e3c6f024972b213d4cc905f12ef09e643ebe2c13d27",
+      "pinHash": "9f91203ed7a25ece12971cbe4259d9fb1f70f3b1381290ccb55dd814be94a4a3",
+      "accountNumber": "9012345678",
+      "bankName": "Providus Bank / KudiFlow",
+      "balance": 1450000,
+      "role": "admin",
+      "status": "active",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&h=200&q=80",
+      "biometricsEnabled": true,
+      "twoFactorEnabled": true,
+      "notificationPrefs": {
+        "email": true,
+        "push": true,
+        "sms": true,
+        "budgetAlerts": true
+      },
+      "createdAt": "2026-09-24T12:47:28.610Z"
+    },
+    {
+      "id": "usr_adaeze_002",
+      "name": "Adaeze Okafor",
+      "email": "adaeze@kudiflow.ng",
+      "phone": "08139876543",
+      "kudiTag": "@adaeze",
+      "passwordHash": "0ea113037fede35f9d2918c06211d004e9cb40127173a83422ab103f73019613",
+      "pinHash": "c7658616be1009468976f3e9bc23e5afb80f2b0f93f0dd53db77e73da9a797b3",
+      "accountNumber": "9087654321",
+      "bankName": "Providus Bank / KudiFlow",
+      "balance": 385000,
+      "role": "user",
+      "status": "active",
+      "avatar": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=200&h=200&q=80",
+      "biometricsEnabled": true,
+      "twoFactorEnabled": false,
+      "notificationPrefs": {
+        "email": true,
+        "push": true,
+        "sms": false,
+        "budgetAlerts": true
+      },
+      "createdAt": "2026-09-24T12:47:28.610Z"
+    },
+    {
+      "id": "usr_babatunde_003",
+      "name": "Babatunde Adeleke",
+      "email": "babatunde@kudiflow.ng",
+      "phone": "07051239874",
+      "kudiTag": "@tunde",
+      "passwordHash": "c5837af6a58f090a9062931521f2a5d90900ff1e2c0e1982f882053d0ad906c4",
+      "pinHash": "3a76d160f94c52020a6779facc3d1b90758d67482f41420a11397de60e777d92",
+      "accountNumber": "9055443322",
+      "bankName": "Providus Bank / KudiFlow",
+      "balance": 195000,
+      "role": "user",
+      "status": "active",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&h=200&q=80",
+      "biometricsEnabled": false,
+      "twoFactorEnabled": false,
+      "notificationPrefs": {
+        "email": true,
+        "push": true,
+        "sms": true,
+        "budgetAlerts": true
+      },
+      "createdAt": "2026-09-24T12:47:28.610Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx_001",
+      "reference": "KDF-20261001-981240",
+      "userId": "usr_adaeze_002",
+      "type": "deposit",
+      "amount": 250000,
+      "category": "Income",
+      "description": "Wallet funding via Providus Virtual Account",
+      "counterparty": "Access Bank / GTCO Inflow",
+      "status": "successful",
+      "date": "2026-09-24T12:47:28.610Z",
+      "metadata": {
+        "method": "Bank Transfer"
+      }
+    },
+    {
+      "id": "tx_002",
+      "reference": "KDF-20261001-981241",
+      "userId": "usr_adaeze_002",
+      "type": "bill_payment",
+      "amount": 15000,
+      "category": "Bills",
+      "description": "Eko Electricity (EKEDC) Prepaid Token",
+      "counterparty": "EKEDC Eko Electric",
+      "status": "successful",
+      "date": "2026-09-28T12:47:28.610Z",
+      "metadata": {
+        "meterNumber": "04218934512",
+        "tokenCode": "4521-8930-1124-7890-3341",
+        "units": "182.4 kWh"
+      }
+    },
+    {
+      "id": "tx_003",
+      "reference": "KDF-20261001-981242",
+      "userId": "usr_adaeze_002",
+      "type": "expense",
+      "amount": 28500,
+      "category": "Food",
+      "description": "Supermarket Groceries & Market Shopping",
+      "counterparty": "Shoprite Ikeja City Mall",
+      "status": "successful",
+      "date": "2026-09-30T12:47:28.610Z",
+      "notes": "Monthly staples purchase"
+    },
+    {
+      "id": "tx_004",
+      "reference": "KDF-20261001-981243",
+      "userId": "usr_adaeze_002",
+      "type": "bill_payment",
+      "amount": 5000,
+      "category": "Bills",
+      "description": "MTN 10GB Monthly Data Bundle",
+      "counterparty": "MTN Nigeria (08139876543)",
+      "status": "successful",
+      "date": "2026-09-30T12:47:28.610Z",
+      "metadata": {
+        "plan": "10GB 30-Days"
+      }
+    },
+    {
+      "id": "tx_005",
+      "reference": "KDF-20261001-981244",
+      "userId": "usr_adaeze_002",
+      "type": "transfer_out",
+      "amount": 20000,
+      "category": "Other",
+      "description": "Transfer to Babatunde Adeleke",
+      "counterparty": "Babatunde Adeleke (@tunde)",
+      "status": "successful",
+      "date": "2026-10-01T12:47:28.610Z",
+      "metadata": {
+        "recipientTag": "@tunde",
+        "recipientId": "usr_babatunde_003"
+      }
+    },
+    {
+      "id": "tx_006",
+      "reference": "KDF-20261001-981245",
+      "userId": "usr_babatunde_003",
+      "type": "transfer_in",
+      "amount": 20000,
+      "category": "Income",
+      "description": "Money received from Adaeze Okafor",
+      "counterparty": "Adaeze Okafor (@adaeze)",
+      "status": "successful",
+      "date": "2026-10-01T12:47:28.610Z",
+      "metadata": {
+        "senderTag": "@adaeze",
+        "senderId": "usr_adaeze_002"
+      }
+    }
+  ],
+  "budgets": [
+    {
+      "id": "bdg_001",
+      "userId": "usr_adaeze_002",
+      "category": "Food",
+      "limit": 80000,
+      "period": "monthly",
+      "startDate": "2026-10-01T00:00:00.000Z",
+      "endDate": "2026-10-31T00:00:00.000Z",
+      "alertThreshold": 80
+    },
+    {
+      "id": "bdg_002",
+      "userId": "usr_adaeze_002",
+      "category": "Bills",
+      "limit": 50000,
+      "period": "monthly",
+      "startDate": "2026-10-01T00:00:00.000Z",
+      "endDate": "2026-10-31T00:00:00.000Z",
+      "alertThreshold": 80
+    },
+    {
+      "id": "bdg_003",
+      "userId": "usr_adaeze_002",
+      "category": "Transportation",
+      "limit": 35000,
+      "period": "monthly",
+      "startDate": "2026-10-01T00:00:00.000Z",
+      "endDate": "2026-10-31T00:00:00.000Z",
+      "alertThreshold": 80
+    },
+    {
+      "id": "bdg_004",
+      "userId": "usr_adaeze_002",
+      "category": "Shopping",
+      "limit": 40000,
+      "period": "monthly",
+      "startDate": "2026-10-01T00:00:00.000Z",
+      "endDate": "2026-10-31T00:00:00.000Z",
+      "alertThreshold": 80
+    }
+  ],
+  "savings": [
+    {
+      "id": "svg_001",
+      "userId": "usr_adaeze_002",
+      "name": "Lekki Apartment Rent 2027",
+      "targetAmount": 1800000,
+      "currentAmount": 720000,
+      "targetDate": "2027-03-31",
+      "category": "Housing",
+      "isLocked": false,
+      "createdAt": "2026-09-24T12:47:28.610Z"
+    },
+    {
+      "id": "svg_002",
+      "userId": "usr_adaeze_002",
+      "name": "MacBook Pro M3 for Tech Work",
+      "targetAmount": 1200000,
+      "currentAmount": 840000,
+      "targetDate": "2026-12-15",
+      "category": "Gadgets",
+      "isLocked": false,
+      "createdAt": "2026-09-24T12:47:28.610Z"
+    },
+    {
+      "id": "svg_003",
+      "userId": "usr_adaeze_002",
+      "name": "Emergency Rainy Day Fund",
+      "targetAmount": 500000,
+      "currentAmount": 350000,
+      "targetDate": "2026-11-30",
+      "category": "Emergency",
+      "isLocked": true,
+      "createdAt": "2026-09-24T12:47:28.610Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_001",
+      "userId": "usr_adaeze_002",
+      "title": "Successful Transfer Sent",
+      "message": "You sent ₦20,000 to Babatunde Adeleke (@tunde).",
+      "type": "transaction",
+      "read": false,
+      "date": "2026-10-01T12:47:28.610Z"
+    },
+    {
+      "id": "notif_002",
+      "userId": "usr_adaeze_002",
+      "title": "Electricity Token Generated",
+      "message": "EKEDC prepaid meter token for ₦15,000 generated successfully: 4521-8930-1124-7890-3341",
+      "type": "transaction",
+      "read": true,
+      "date": "2026-09-28T12:47:28.610Z"
+    },
+    {
+      "id": "notif_003",
+      "userId": "usr_adaeze_002",
+      "title": "Budget Alert: Food Category",
+      "message": "You have spent 35.6% of your monthly Food budget.",
+      "type": "budget",
+      "read": true,
+      "date": "2026-09-30T12:47:28.610Z"
+    },
+    {
+      "id": "notif_004",
+      "userId": "usr_babatunde_003",
+      "title": "Money Received!",
+      "message": "You received ₦20,000 from Adaeze Okafor (@adaeze).",
+      "type": "transaction",
+      "read": false,
+      "date": "2026-10-01T12:47:28.610Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "aud_001",
+      "userId": "usr_admin_001",
+      "userName": "Oluwaseun Balogun",
+      "action": "SYSTEM_BOOT",
+      "details": "KudiFlow production services initialized with banking modules.",
+      "ip": "102.89.34.12",
+      "timestamp": "2026-09-24T12:47:28.610Z",
+      "severity": "info"
+    },
+    {
+      "id": "aud_002",
+      "userId": "usr_adaeze_002",
+      "userName": "Adaeze Okafor",
+      "action": "P2P_TRANSFER",
+      "details": "Transferred ₦20,000 to @tunde (Ref: KDF-20261001-981244) with PIN authorization.",
+      "ip": "105.112.98.54",
+      "timestamp": "2026-10-01T12:47:28.610Z",
+      "severity": "info"
+    },
+    {
+      "id": "aud_9a8e59ea9137",
+      "userId": "usr_adaeze_002",
+      "userName": "Adaeze Okafor",
+      "action": "USER_LOGIN",
+      "details": "User logged in from 127.0.0.1.",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-10-01T12:47:28.614Z",
+      "severity": "info"
+    }
+  ],
+  "supportTickets": [
+    {
+      "id": "tkt_001",
+      "userId": "usr_adaeze_002",
+      "userName": "Adaeze Okafor",
+      "userEmail": "adaeze@kudiflow.ng",
+      "subject": "Inquiry on increased daily transfer limit",
+      "description": "Hello KudiFlow team, how can I upgrade my Tier 2 account to Tier 3 to send up to ₦5,000,000 daily?",
+      "category": "account",
+      "status": "open",
+      "createdAt": "2026-09-30T12:47:28.610Z"
+    }
+  ]
+}
